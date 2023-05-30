@@ -12,11 +12,14 @@ int main(){
     int i;
 
     srand(time(NULL));
+    
     for(i=0; i<n; i++){
         x[i] = rand() % 100;
     }
     printf("Conent of the array: \n");
+
     int sum = 0;
+    
     for(i=0; i<n; i++){
         printf("%4d", x[i]);
         sum = sum + x[i];
