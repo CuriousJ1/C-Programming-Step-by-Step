@@ -1,6 +1,6 @@
 #include <stdio.h>
 //prototype declarations
-
+//declare these variables as you do not know the flow of the program
 int is_lower_case(char);
 int is_upper_case(char);
 char to_upper__case(char);
@@ -34,6 +34,7 @@ int is_upper_case(char ch){
         return 0;
 }
 
+//test cases
 int main(){
     char k;
 
