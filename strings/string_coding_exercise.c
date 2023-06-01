@@ -6,20 +6,10 @@ int main(){
     printf("Enter a string: ");
     scanf("%[^\n]", str);
 
-    // can clean this code up alot more but I cbf
+    // try to find out you can clean up the for loop
 
-    int i;
-    int zero = 0;
-    int one = 0;
-    int two = 0;
-    int three = 0;
-    int four = 0;
-    int five = 0;
-    int six = 0;
-    int seven = 0;
-    int eight = 0;
-    int nine = 0;
-
+    int i; 
+    int zero = 0, one = 0,two = 0, three = 0, four = 0,five = 0, six = 0,seven = 0,eight = 0, nine = 0;
    
     // \0 is null
     for(i=0; str[i]!='\0'; i++){
@@ -43,20 +33,10 @@ int main(){
             eight++;
         else if(str[i] == '9')
             nine++;
-        else
-            continue;
     }
 
-    printf("%d ", zero);
-    printf("%d ", one);
-    printf("%d ", two);
-    printf("%d ", three);
-    printf("%d ", four);
-    printf("%d ", five);
-    printf("%d ", six);
-    printf("%d ", seven);
-    printf("%d ", eight);
-    printf("%d ", nine);
+    printf("%d %d %d %d %d %d %d %d %d %d", zero, one, two, three, four, five, six, seven, eight, nine);
+
 
     return 0;
 }

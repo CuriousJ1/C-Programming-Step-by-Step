@@ -12,7 +12,7 @@ int isPrime(int n){
     return 1;
 }
 
-int sumofPrime(int lb, int ub){
+int sumOfPrime(int lb, int ub){
     int count, sum;
 
     for(count=lb, sum=0; count<=ub; count++){
