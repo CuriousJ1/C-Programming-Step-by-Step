@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// SUN = 0, MON = 1....... SAT = 7
 typedef enum{
      SUN, MON, TUE, WED, THURS, FRI, SAT
 }days_of_week;
