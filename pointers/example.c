@@ -4,7 +4,7 @@ void togglerChar(char *ptr){
 
     int i;
 
-    for(i=0; *ptr-i != '\0'; i++){
+    for(i=0; *(ptr+i) != '\0'; i++){
         if(*(ptr+i)>='A' && *(ptr+i)<='Z')
             *(ptr+i) = *(ptr+i) + 32;
         else if (*(ptr+i)>='a' && *(ptr+i)<='z')
